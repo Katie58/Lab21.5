@@ -11,10 +11,10 @@
 	<h2>How many miles are left in your tank?</h2>
 	<form action="/result">
 	<p>
-		Mileage (MPG): <input type="text" name="mpg" />
+		Mileage (MPG): <input type="number" name="mpg" />
 	</p>
 	<p>
-		Gallons in tank: <input type="text" name="gallons" />		
+		Gallons in tank: <input type="number" name="gallons" />		
 	</p>
 	<p>
 	<button type="submit">CALCULATE</button>
